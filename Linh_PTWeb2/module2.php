@@ -1,6 +1,6 @@
 <div class="body">
     <div class="main-wrapper">
-        <section class="home" id ="appVue2">
+        <section class="home" id ="appVue1">
             <div class="tittle-block">
                 <div class="logo">
                     <a href="#">
