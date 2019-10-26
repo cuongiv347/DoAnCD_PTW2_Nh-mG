@@ -73,7 +73,5 @@ var appVue = new Vue({
         View: 'View Cart',
 
         img: 'images/nav-logo.png',
-        img1: 'images/logo.png',
-
     }
 });
