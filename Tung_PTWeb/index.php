@@ -8,20 +8,21 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="flexslider.css">
 </head>
 <body>
-    
 
-<?php include '../WEB/module8.php'; ?>
-<?php include '../WEB/module9.php'; ?>
-
-<?php include '../WEB/module11.php'; ?>
+<?php include './module8.php'; ?>
+<?php include './module9.php'; ?>
+<?php include './module10.php'; ?>
+<?php include './module11.php'; ?>
 
 <script src="js/vue.js"></script> 
-<script src="js/app.js"></script>
+<script src="js/apptrus.js"></script>
+<script src="js/appins.js"></script>
+<script src="js/appsub.js"></script>
+<script src="js/appfoot.js"></script>
 
 </body>
 </html>
