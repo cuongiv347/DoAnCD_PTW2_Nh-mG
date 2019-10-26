@@ -15,8 +15,8 @@
 </head>
 <body class="" data-cf-browser-state="modern" data-cf-browser-version="76" data-cf-browser-name="chrome">
 
-    <?php include './content.php'; ?>
-
+    <?php include './module1.php'; ?>
+    <?php include './module2.php'; ?>
 <script src="js/vendor/jquery-1.11.2.min.js"></script>
 <script src="js/vendor/bootstrap.min.js"></script>
 <script src="js/vendor/jquery.flexslider-min.js"></script>
@@ -42,5 +42,6 @@
 <script src="js/vue.js"></script>
 <script src="js/main.js"></script>
 <script src="js/appVue.js"></script>
+<script src="js/appVue1.js"></script>
 </body>
 </html>
