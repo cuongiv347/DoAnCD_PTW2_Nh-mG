@@ -41,7 +41,7 @@
 <script src="js/reservation.js"></script>
 <script src="js/vue.js"></script>
 <script src="js/main.js"></script>
-<script src="js/appVue.js"></script>
 <script src="js/appVue1.js"></script>
+<script src="js/appVue2.js"></script>
 </body>
 </html>
