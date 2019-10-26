@@ -1,4 +1,7 @@
-<section class="home" id ="appVue1">
+<div class="body">
+    <div class="main-wrapper" id="appVue">
+       
+        <section class="home" id ="appVue1">
             <div class="tittle-block">
                 <div class="logo">
                     <a href="#">
@@ -14,3 +17,6 @@
                 </a>
             </div>
         </section>
+    </div>
+</div>
+
