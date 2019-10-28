@@ -12,7 +12,6 @@ var foot = new Vue({
         message15:'REACH US',
         message16:'28 Seventh Avenue, Neew York, 10014',
         message17:'Phone: (415) 124-5678',
-        message18:'[support@restaurant.com]',
-
+        message18:'[support@restaurant.com]'
     }
 }) 
