@@ -1,6 +1,6 @@
 <div class="body">
-    <div class="main-wrapper" id="appVue">
-        <nav class="navbar navbar-fixed-top">
+    <div class="main-wrapper" >
+        <nav class="navbar navbar-fixed-top"id="appVue">
             <div class="container">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#">

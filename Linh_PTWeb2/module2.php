@@ -1,6 +1,5 @@
 <div class="body">
-    <div class="main-wrapper" id="appVue">
-       
+    <div class="main-wrapper">
         <section class="home" id ="appVue1">
             <div class="tittle-block">
                 <div class="logo">

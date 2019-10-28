@@ -1,0 +1,82 @@
+.menu {
+  background: #ececec; }
+
+#title-menu {
+  text-align: center;
+  font-family: raleway, sans-serif;
+  text-transform: uppercase;
+  color: #4b4741;
+  font-weight: 800;
+  font-size: 70px; }
+
+#select {
+  font-size: 18px;
+  color: #828281;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 20px;
+  padding-bottom: 2px;
+  padding-top: 5px;
+  cursor: pointer;
+  transition: all .5s ease; }
+
+#myBtnContainer {
+  text-align: center;
+  padding: 30px; }
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer; }
+
+.btn:hover {
+  background-color: #ddd; }
+
+.btn.active {
+  border-bottom: 3px solid #f9c56a;
+  color: #4b4741; }
+
+.filterDiv {
+  text-align: center;
+  display: none;
+  position: relative;
+  padding-bottom: 30px; }
+
+.show {
+  display: block; }
+
+.menu-overlay {
+  width: 103%;
+  background-color: #fff;
+  box-shadow: 0 5px 5px #e2e2e2;
+  margin-bottom: 0;
+  text-align: center;
+  text-decoration: none !important;
+  display: table;
+  position: relative;
+  z-index: 444; }
+
+.menu-overlay h4 {
+  font-size: 19px;
+  color: #4b4741;
+  margin: 46px 0 15px; }
+
+.menu-overlay p {
+  color: #4b4741;
+  font-size: 18px;
+  line-height: 24px; }
+
+.menu-overlay .price {
+  font-family: Josefin Sans;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #e7ad48;
+  width: 100%;
+  display: table;
+  margin: 0;
+  padding: 13px 0 45px; }
+
+/*# sourceMappingURL=styles.css.map */
