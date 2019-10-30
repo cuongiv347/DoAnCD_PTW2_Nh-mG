@@ -12,14 +12,14 @@
                     <h1>{{message10}}</h1>
                     <div class="footer-blog clearfix">
 
-                        <img src="img/thumb8.png" class="img-responsive footer-photo" alt="blog photos">
+                        <img src="./img/thumb8.png" class="img-responsive footer-photo" alt="blog photos">
                         <p class="footer-blog-text">{{message11}}</p>
                         <p class="footer-blog-date">{{message12}}</p>
                         </a>
                     </div>
                     <div class="footer-blog clearfix last">
 
-                        <img src="img/thumb9.png" class="img-responsive footer-photo" alt="blog photos">
+                        <img src="./img/thumb9.png" class="img-responsive footer-photo" alt="blog photos">
                         <p class="footer-blog-text">{{message13}}</p>
                         <p class="footer-blog-date">{{message14}}</p>
                         </a>
