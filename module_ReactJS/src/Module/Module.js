@@ -12,22 +12,19 @@ class Module extends React.Component {
         <div className="cd-main-content">
             <div className="cd-tab-filter">
               <ul className="cd-filters">
-                <li className="placeholder"> 
-                  <a data-type="all" href="#0">All</a>
-                </li> 
                 <li className="filter"><a className="selected" href="#0" data-type="all">All</a></li>
                 <li className="filter" data-filter=".starts"><a href="#0" data-type="color-1">starts</a></li>
                 <li className="filter" data-filter=".breakfast"><a href="#0" data-type="color-2">breakfast</a></li>
                 <li className="filter" data-filter=".lunch"><a href="#0" data-type="color-3">lunch</a></li>
                 <li className="filter" data-filter=".dinner"><a href="#0" data-type="color-4">dinner</a></li>
-                <li className="filter" data-filter=".desserts"><a href="#0" data-type="color-4">desserts</a></li>
+                <li className="filter" data-filter=".desserts"><a href="#0" data-type="color-5">desserts</a></li>
               </ul>
             </div> 
 
           <section className="cd-gallery">
             <ul>
               <li className="mix starts">
-                <img src={require("./images/1.jpg")}></img>
+                <img src={require("./images/1.jpg")}alt=""></img>
                       <div className="menu-overlay">
                           <h4>English-Asparagus</h4>
                           <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>
@@ -35,7 +32,7 @@ class Module extends React.Component {
                       </div>
                   </li>
               <li className="mix breakfast">
-                <img src={require("./images/2.jpg")}></img>
+                <img src={require("./images/2.jpg")}alt=""></img>
                       <div className="menu-overlay">
                           <h4>English-Asparagus</h4>
                           <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>
@@ -43,7 +40,7 @@ class Module extends React.Component {
                       </div>
                   </li>
               <li className="mix lunch">
-                <img src={require("./images/3.jpg")}></img>
+                <img src={require("./images/3.jpg")}alt=""></img>
                       <div className="menu-overlay">
                           <h4>English-Asparagus</h4>
                           <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>
@@ -51,7 +48,7 @@ class Module extends React.Component {
                       </div>
                   </li>
               <li className="mix dinner">
-                <img src={require("./images/4.jpg")}></img>
+                <img src={require("./images/4.jpg")}alt=""></img>
                       <div className="menu-overlay">
                           <h4>English-Asparagus</h4>
                           <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>
@@ -59,7 +56,7 @@ class Module extends React.Component {
                       </div>
                   </li>
               <li className="mix desserts">
-                <img src={require("./images/5.jpg")}></img>
+                <img src={require("./images/5.jpg")}alt=""></img>
                       <div className="menu-overlay">
                           <h4>English-Asparagus</h4>
                           <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>

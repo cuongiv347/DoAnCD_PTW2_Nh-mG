@@ -236,6 +236,11 @@ xgallery
   padding: 13px 0 45px; }
 
 .mix {
-  padding-right: 15px; }
+  padding-right: 15px;
+}
+.mix img:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
 
 /*# sourceMappingURL=styles.css.map */
