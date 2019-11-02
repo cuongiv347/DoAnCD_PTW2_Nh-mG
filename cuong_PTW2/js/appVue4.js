@@ -15,6 +15,7 @@ var appVue4 = new Vue({
 
         button_right: './images/right-arrow.png',
         button_left: './images/left-arrow.png',
+        message: 'Bạn đã mở trang này vào ' + new Date().toLocaleString(),
     },
 
 

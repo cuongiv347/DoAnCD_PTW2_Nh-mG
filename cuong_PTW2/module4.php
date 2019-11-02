@@ -12,7 +12,7 @@
                 <div class="row wow fadeInUp">
                     <div class="col-md-offset-1 col-md-10">
                         <div class="flexslider special-slider">
-                            <ul class="slides">
+                            <ul class="slides" v-bind:title="message">
                                 <li>
                                     <div class="slider-img">
                                         <img :src='img_special' alt="" />
