@@ -1,16 +1,12 @@
-<div class="body">
-    <div class="main-wrapper">
-
-        <section class="page_header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h2 class="text-uppercase wow fadeInDown">About us</h2>
-                        <p class="wow fadeInUp">Read our Story, How we started and about the Team</p>
-                    </div>
+<div id="appVue1">
+    <section class="page_header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="text-uppercase wow fadeInDown">{{about}}</h2>
+                    <p class="wow fadeInUp">{{p_about}}</p>
                 </div>
             </div>
-        </section>
-
-    </div>
+        </div>
+    </section>
 </div>
