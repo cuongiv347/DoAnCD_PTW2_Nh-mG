@@ -1,42 +1,46 @@
 <div class="body">
-    <div class="main-wrapper" id="appVue3">
-        <section class="about" id="about">
+    <div class="main-wrapper">
+
+        <section class="services">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="page-header wow fadeInDown">
-                            <h1>{{h1_title_about}}<small>{{small_title_about}}</small></h1>
+                            <h1 class="white">Special Service<small>What Special services we are offering
+                                    now</small></h1>
                         </div>
                     </div>
                 </div>
-                <div class="row wow fadeInUp">
-                    <div class="col-md-4">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-xs-12 hidden-sm about-photo">
-                                    <div class="image-thumb">
-                                        <img :src='img_1' :data-mfp-src='img_1' class="img-responsive"
-                                            alt="logo">
-                                    </div>
-                                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="services-slider wow fadeIn">
+                            <div class="service-content text-center">
+                                <img src="./images/ico1.png" class="center-block" alt="" />
+                                <h4 class="text-uppercase">Birthday Party</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                             </div>
-                            <div class="row">
-                                <div class="col-sm-6 about-photo hidden-xs">
-                                    <img :src='img_2' :data-mfp-src='img_2' class="img-responsive"
-                                        alt="logo">
-                                </div>
-                                <div class="col-sm-6 about-photo hidden-xs">
-                                    <img :src='img_3' :data-mfp-src='img_3' class="img-responsive"
-                                        alt="logo">
-                                </div>
+                            <div class="service-content text-center">
+                                <img src="./images/ico2.png" class="center-block" alt="" />
+                                <h4 class="text-uppercase">Wedding Party</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum has been the
+                                    industry's standard dummy text ever since the 1500s, when an unknown printer.
+                                </p>
+                            </div>
+                            <div class="service-content text-center">
+                                <img src="./images/ico1.png" class="center-block" alt="" />
+                                <h4 class="text-uppercase">Birthday Party</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the standard dummy text ever since the 1500s, when an unknown
+                                    printer.</p>
+                            </div>
+                            <div class="service-content text-center">
+                                <img src="./images/ico2.png" class="center-block" alt="" />
+                                <h4 class="text-uppercase">Wedding Party</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text when an unknown printer.</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-8">
-                        <p> {{p_1_about}} </p>
-                        <br>
-                        <p> {{p_2_about}} </p>
-                        <img :src='img_4' alt="signature">
                     </div>
                 </div>
             </div>
