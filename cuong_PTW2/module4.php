@@ -4,56 +4,56 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="page-header wow fadeInDown">
-                        <h1>Our Team<small>The Hardworking Team behind the restaurant</small></h1>
+                        <h1>{{h1_title}}<small>{{small_title}}</small></h1>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-3 col-sm-6 text-center">
                     <div class="team-staff wow fadeInUp" data-wow-delay="0.2s">
-                        <img src="./images/1.png" class="img-responsive center-block" alt="" />
-                        <h4>Enter Name Here</h4>
-                        <p>Designation here</p>
+                        <img :src='img_1' class="img-responsive center-block" alt="" />
+                        <h4>{{h4_team}}</h4>
+                        <p>{{p_team}}</p>
                         <ul class="team-social">
-                            <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="https://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 text-center">
                     <div class="team-staff wow fadeInUp" data-wow-delay="0.4s">
-                        <img src="./images/2.png" class="img-responsive center-block" alt="" />
-                        <h4>Enter Name Here</h4>
-                        <p>Designation here</p>
+                        <img :src='img_2' class="img-responsive center-block" alt="" />
+                        <h4>{{h4_team}}</h4>
+                        <p>{{p_team}}</p>
                         <ul class="team-social">
-                            <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="https://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 text-center">
                     <div class="team-staff wow fadeInUp" data-wow-delay="0.6s">
-                        <img src="./images/3.png" class="img-responsive center-block" alt="" />
-                        <h4>Enter Name Here</h4>
-                        <p>Designation here</p>
+                        <img :src='img_3' class="img-responsive center-block" alt="" />
+                        <h4>{{h4_team}}</h4>
+                        <p>{{p_team}}</p>
                         <ul class="team-social">
-                            <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="https://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 text-center">
                     <div class="team-staff wow fadeInUp" data-wow-delay="0.8s">
-                        <img src="./images/4.png" class="img-responsive center-block" alt="" />
-                        <h4>Enter Name Here</h4>
-                        <p>Designation here</p>
+                        <img :src='img_4' class="img-responsive center-block" alt="" />
+                        <h4>{{h4_team}}</h4>
+                        <p>{{p_team}}</p>
                         <ul class="team-social">
-                            <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="https://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                         </ul>
                     </div>
                 </div>

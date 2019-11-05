@@ -35,9 +35,8 @@
     </div>
 
 
-
     <!-- JS -->
-    <script src="../jquery.flexslider.js"></script>
+    
     <script src="js/vendor/jquery-1.11.2.min.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/vendor/jquery.flexslider-min.js"></script>
@@ -47,7 +46,6 @@
     <script src="js/vendor/slick.min.js"></script>
     <script src="js/reservation.js"></script>
     <script src="js/main.js"></script>
-
 
 
     <!-- app Vue -->

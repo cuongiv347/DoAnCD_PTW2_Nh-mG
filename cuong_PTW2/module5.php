@@ -14,7 +14,7 @@
                         <div class="row">
                             <div class="col-xs-12 hidden-sm about-photo">
                                 <div class="image-thumb">
-                                    <img :src='img_1' :data-mfp-src='img_1' class="img-responsive" alt="logo">
+                                    <img :src='img_1' data-mfp-src="./images/thumb1.png" class="img-responsive" alt="logo">
                                 </div>
                             </div>
                         </div>

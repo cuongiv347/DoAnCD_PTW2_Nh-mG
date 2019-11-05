@@ -35,7 +35,14 @@ var appVue3 = new Vue({
 var appVue4 = new Vue({
     el: '#appVue4',
     data: {
-
+        h1_title: 'Our Team',
+        small_title: 'The Hardworking Team behind the restaurant',
+        h4_team: 'Enter Name Here',
+        p_team: 'Designation here',
+        img_1: './images/1.png',
+        img_2: './images/2.png',
+        img_3: './images/3.png',
+        img_4: './images/4.png',
     },
 });
 
