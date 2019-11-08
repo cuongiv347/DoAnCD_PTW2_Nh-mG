@@ -50,7 +50,7 @@
                                 <span class="fa fa-star active"></span>
                             </div>
                             <p>{{ student.RollNo }}</p>
-                            <a href="./recipe_detail-image.html" class="btn btn-default">View Details</a>
+                            <a href="./module8.php" class="btn btn-default">View Details</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6">
@@ -65,7 +65,7 @@
                                 <span class="fa fa-star active"></span>
                             </div>
                             <p>{{ student.RollNo }}</p>
-                            <a href="./recipe_detail-image.html" class="btn btn-default">View Details</a>
+                            <a href="./module8.php" class="btn btn-default">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
                                 <span class="fa fa-star active"></span>
                             </div>
                             <p>{{ student.RollNo }}</p>
-                            <a href="./recipe_detail-image.html" class="btn btn-default">View Details</a>
+                            <a href="./module8.php" class="btn btn-default">View Details</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6">
@@ -98,7 +98,7 @@
                                 <span class="fa fa-star active"></span>
                             </div>
                             <p>{{ student.RollNo }}</p>
-                            <a href="./recipe_detail-image.html" class="btn btn-default">View Details</a>
+                            <a href="./module8.php" class="btn btn-default">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -116,7 +116,7 @@
                                 <span class="fa fa-star active"></span>
                             </div>
                             <p>{{ student.RollNo }}</p>
-                            <a href="./recipe_detail-image.html" class="btn btn-default">View Details</a>
+                            <a href="./module8.php" class="btn btn-default">View Details</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6">
@@ -131,7 +131,7 @@
                                 <span class="fa fa-star active"></span>
                             </div>
                             <p>{{ student.RollNo }}</p>
-                            <a href="./recipe_detail-image.html" class="btn btn-default">View Details</a>
+                            <a href="./module8.php" class="btn btn-default">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -146,9 +146,9 @@
             <div class="row">
                 <div class="featured-recipies">
                     <div class="fp-content">
-                        <a href="./recipe_detail-image.html"><img src="images/recipie/1/1.jpg" class="img-responsive"
+                        <a href="./module8.php"><img src="images/recipie/1/1.jpg" class="img-responsive"
                                 alt="" /></a>
-                        <h4><a href="./recipe_detail-image.html">Food Name</a></h4>
+                        <h4><a href="./module8.php">Food Name</a></h4>
                         <div class="rc-ratings">
                             <span class="fa fa-star"></span>
                             <span class="fa fa-star active"></span>
@@ -158,9 +158,9 @@
                         </div>
                     </div>
                     <div class="fp-content">
-                        <a href="./recipe_detail-image.html"><img src="images/recipie/1/2.jpg" class="img-responsive"
+                        <a href="./module8.php"><img src="images/recipie/1/2.jpg" class="img-responsive"
                                 alt="" /></a>
-                        <h4><a href="./recipe_detail-image.html">Food Name</a></h4>
+                        <h4><a href="./module8.php">Food Name</a></h4>
                         <div class="rc-ratings">
                             <span class="fa fa-star"></span>
                             <span class="fa fa-star active"></span>
@@ -170,9 +170,9 @@
                         </div>
                     </div>
                     <div class="fp-content">
-                        <a href="./recipe_detail-image.html"><img src="images/recipie/1/3.jpg" class="img-responsive"
+                        <a href="./module8.php"><img src="images/recipie/1/3.jpg" class="img-responsive"
                                 alt="" /></a>
-                        <h4><a href="./recipe_detail-image.html">Food Name</a></h4>
+                        <h4><a href="./module8.php">Food Name</a></h4>
                         <div class="rc-ratings">
                             <span class="fa fa-star"></span>
                             <span class="fa fa-star active"></span>
@@ -182,9 +182,9 @@
                         </div>
                     </div>
                     <div class="fp-content">
-                        <a href="./recipe_detail-image.html"><img src="images/recipie/1/4.jpg" class="img-responsive"
+                        <a href="./module8.php"><img src="images/recipie/1/4.jpg" class="img-responsive"
                                 alt="" /></a>
-                        <h4><a href="./recipe_detail-image.html">Food Name</a></h4>
+                        <h4><a href="./module8.php">Food Name</a></h4>
                         <div class="rc-ratings">
                             <span class="fa fa-star"></span>
                             <span class="fa fa-star active"></span>
@@ -194,9 +194,9 @@
                         </div>
                     </div>
                     <div class="fp-content">
-                        <a href="./recipe_detail-image.html"><img src="images/recipie/1/2.jpg" class="img-responsive"
+                        <a href="./module8.php"><img src="images/recipie/1/2.jpg" class="img-responsive"
                                 alt="" /></a>
-                        <h4><a href="./recipe_detail-image.html">Food Name</a></h4>
+                        <h4><a href="./module8.php">Food Name</a></h4>
                         <div class="rc-ratings">
                             <span class="fa fa-star"></span>
                             <span class="fa fa-star active"></span>
@@ -206,9 +206,9 @@
                         </div>
                     </div>
                     <div class="fp-content">
-                        <a href="./recipe_detail-image.html"><img src="images/recipie/1/3.jpg" class="img-responsive"
+                        <a href="./module8.php"><img src="images/recipie/1/3.jpg" class="img-responsive"
                                 alt="" /></a>
-                        <h4><a href="./recipe_detail-image.html">Food Name</a></h4>
+                        <h4><a href="./module8.php">Food Name</a></h4>
                         <div class="rc-ratings">
                             <span class="fa fa-star"></span>
                             <span class="fa fa-star active"></span>
