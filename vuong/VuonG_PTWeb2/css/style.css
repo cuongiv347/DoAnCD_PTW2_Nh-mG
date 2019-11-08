@@ -1,0 +1,325 @@
+@import url(settings-panel.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:900,800,700,600,400,300,200,100);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:700,600,400);
+body {
+  height: 100%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch; }
+  body h1,
+  body h2,
+  body h3,
+  body h4,
+  body h6 {
+    font-family: raleway, sans-serif, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #4b4741;
+    text-align: center;
+    font-weight: 800; }
+  body p {
+    font-family: josefin sans, sans-serif;
+    color: #828281;
+    font-size: 22px; }
+  body a,
+  body a:hover {
+    text-decoration: none; }
+  body h1 small {
+    font-size: 65%; }
+  body small {
+    font-family: josefin sans, sans-serif;
+    display: block !important;
+    text-transform: none;
+    text-align: center;
+    margin: 10px 0 15px; }
+
+.reservation {
+  padding-bottom: 80px; }
+  .reservation .page-header {
+    border: none;
+    margin: 80px 0 40px; }
+  .reservation .reservation-form {
+    border: 1px solid #f3f1ed;
+    padding: 25px 50px; }
+    .reservation .reservation-form .form-group {
+      padding: 10px 0;
+      position: relative; }
+      .reservation .reservation-form .form-group .form-control {
+        padding: 0 50px 0 15px;
+        font-size: 16px;
+        height: 40px; }
+    .reservation .reservation-form .reservation-btn {
+      text-align: center;
+      padding: 20px 0; }
+      .reservation .reservation-form .reservation-btn a {
+        padding: 15px 40px; }
+      .reservation .reservation-form .reservation-btn .btn-default {
+        background-color: #f9c56a; }
+      .reservation .reservation-form .reservation-btn .btn-default:hover {
+        background-color: #f7b239;
+        border-color: #f7b239; }
+      .reservation .reservation-form .reservation-btn .btn {
+        border-radius: 0;
+        border: none;
+        font-family: raleway, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 700;
+        padding: 10px 15px; }
+    .reservation .reservation-form i {
+      position: absolute;
+      right: 20px;
+      top: 53px;
+      color: #f28a2f; }
+  .reservation .reservation-form .form-group input[type=number]::-webkit-inner-spin-button,
+  .reservation .reservation-form .form-group input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; }
+  .reservation .reservation-footer {
+    position: relative;
+    text-align: center;
+    background-color: #fafafa;
+    overflow: visible;
+    padding-top: 20px; }
+    .reservation .reservation-footer p {
+      margin-bottom: 20px; }
+    .reservation .reservation-footer span {
+      position: relative;
+      bottom: -1px;
+      display: block;
+      width: 100%;
+      height: 5px;
+      text-align: center;
+      background: 0 center repeat-x url(../images/zigzag.svg); }
+  .reservation .reservation td .active {
+    background-color: #f9c56a !important; }
+  .reservation .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.4); }
+    .reservation .modal .modal-content {
+      position: relative;
+      background-color: #fefefe;
+      margin: auto;
+      padding: 0;
+      border: 1px solid #888;
+      width: 80%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      -webkit-animation-name: animatetop;
+      -webkit-animation-duration: 0.4s;
+      animation-name: animatetop;
+      animation-duration: 0.4s; }
+      .reservation .modal .modal-content .close {
+        color: white;
+        float: right;
+        font-size: 28px;
+        font-weight: bold; }
+      .reservation .modal .modal-content .close:hover,
+      .reservation .modal .modal-content close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer; }
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0; }
+  to {
+    top: 0;
+    opacity: 1; } }
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0; }
+  to {
+    top: 0;
+    opacity: 1; } }
+    .reservation .modal .modal-header {
+      padding: 2px 16px;
+      background-color: #5cb85c;
+      color: white; }
+    .reservation .modal .modal-body {
+      padding: 2px 16px; }
+    .reservation .modal .modal-footer {
+      padding: 2px 16px;
+      background-color: #5cb85c;
+      color: white; }
+
+.features {
+  background: url(../images/bg4.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 50px; }
+  .features img {
+    width: 100%;
+    height: auto; }
+  .features .features-tile {
+    background-color: #fff;
+    margin-bottom: 30px; }
+    .features .features-tile .features-content {
+      padding: 5px 25px 10px; }
+      .features .features-tile .features-content .page-header {
+        margin: 20px 0 10px; }
+        .features .features-tile .features-content .page-header h1 {
+          font-size: 25px;
+          text-align: left; }
+          .features .features-tile .features-content .page-header h1 smail {
+            font-size: 18px;
+            text-align: left; }
+      .features .features-tile .features-content .page-header:after {
+        content: "";
+        display: block;
+        position: relative;
+        height: 3px;
+        width: 113px;
+        background-color: #f9c56a;
+        margin: 0; }
+  .features .features-img {
+    overflow: hidden; }
+  .features .features-tile:hover .features-img img {
+    transform: scale(1.1);
+    transition: .4s;
+    opacity: .9; }
+  .features .page-header {
+    border: none;
+    margin: 80px 0 40px; }
+    .features .page-header .white {
+      color: #fff; }
+      .features .page-header .white small {
+        color: #eee; }
+  .features .page-header:after {
+    content: "";
+    display: block;
+    position: relative;
+    height: 3px;
+    width: 113px;
+    background-color: #f9c56a;
+    margin: 0 auto; }
+
+.page_header {
+  background: url(../images/header.jpg) no-repeat center top;
+  background-size: cover;
+  padding: 200px 0 150px; }
+  .page_header h2 {
+    margin: 0;
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 900;
+    color: #fff; }
+  .page_header p {
+    margin: 15px 0;
+    font-size: 24px;
+    font-family: Raleway;
+    color: #fff;
+    opacity: 0.7; }
+
+.recipie-content {
+  padding: 85px 0; }
+  .recipie-content img {
+    float: left;
+    width: 254px; }
+  .recipie-content .rc-info {
+    margin-left: 296px;
+    text-align: left; }
+    .recipie-content .rc-info h4 {
+      text-align: left;
+      margin: 0;
+      font-size: 20px;
+      color: #4b4741; }
+    .recipie-content .rc-info p {
+      font-size: 17px;
+      line-height: 32px;
+      color: #4b4741;
+      padding-right: 29px; }
+  .recipie-content .rc-ratings {
+    margin: 12px 0 10px; }
+    .recipie-content .rc-ratings span {
+      color: #cdcdcd;
+      font-size: 16px; }
+  .recipie-content .rc-ratings span.active {
+    color: #f6b61b; }
+  .recipie-content .btn-default {
+    color: #534120;
+    padding: 17px;
+    border: 1px solid #f2ba57;
+    font-size: 13px;
+    line-height: 14px;
+    border-radius: 1px;
+    font-weight: 700;
+    margin-top: 12px;
+    background-color: #f2ba57; }
+  .recipie-content .btn-default:hover {
+    background-color: #f7b239; }
+  .recipie-content hr {
+    margin: 70px 0;
+    border-color: #dedede; }
+
+.featured-recipie {
+  padding: 40px 0 95px; }
+  .featured-recipie hr {
+    margin: 0 0 55px;
+    border-color: #dedede; }
+  .featured-recipie h3 {
+    text-align: left;
+    font-size: 20px;
+    color: #4b4741;
+    margin: 0 0 23px; }
+  .featured-recipie .fp-content {
+    margin: 0 15px; }
+    .featured-recipie .fp-content h4 {
+      text-decoration: none;
+      text-align: left;
+      margin: 25px 0 -4px; }
+      .featured-recipie .fp-content h4 a {
+        color: #4b4741;
+        font-weight: 700; }
+    .featured-recipie .fp-content .rc-ratings {
+      margin: 12px 0 10px; }
+      .featured-recipie .fp-content .rc-ratings span {
+        color: #cdcdcd;
+        font-size: 16px; }
+    .featured-recipie .fp-content .rc-ratings span.active {
+      color: #f6b61b; }
+  .featured-recipie .slick-dots {
+    position: relative;
+    display: table;
+    margin: 5px auto 0;
+    width: auto; }
+    .featured-recipie .slick-dots li {
+      position: relative;
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      margin: 0 4px;
+      padding: 0;
+      cursor: pointer; }
+      .featured-recipie .slick-dots li button {
+        font-size: 0;
+        line-height: 0;
+        display: table;
+        width: 15px;
+        height: 15px;
+        padding: 0;
+        cursor: pointer;
+        color: transparent;
+        background-color: #e8e8e8;
+        outline: medium;
+        border-radius: 50%; }
+
+.featured-recipies .slick-dots li.slick-active {
+  background-color: transparent; }
+
+.featured-recipies .slick-dots li.slick-active button {
+  background-color: #f9c56a; }
+
+.featured-recipies .slick-dots li button:before {
+  display: none; }
+
+/*# sourceMappingURL=style.css.map */
